@@ -27,4 +27,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: martyca/mp3_2_m4b:latest
+        tags: martyca/flac_2_m4a:latest
