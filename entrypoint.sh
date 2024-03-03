@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in *.flac; do ffmpeg -i "$i" -vn -c:a aac -b:a 320k "${i%.*}.m4a"; done
+for i in *.flac; do ffmpeg -i "$i" -vn -ab 320k -map_metadata 0 -id3v2_version "${i%.*}.mp3"; done
