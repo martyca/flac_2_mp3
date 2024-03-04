@@ -1,5 +1,5 @@
 # flac_2_mp3
-Converts flac files from the current folder to mp3 using the lame code at a constant bitrate of 320.
+Converts flac files from the current folder to mp3 using the lame codec at a constant bitrate of 320.
 ## Installation
 `docker pull martyca/flac_2_mp3:latest`
 ## Usage
@@ -28,6 +28,3 @@ ffmpeg:4.4-ubuntu
 https://ffmpeg.org/
 #### MP3 Codec
 https://lame.sourceforge.io/
-#### AAC Codec
-https://en.wikipedia.org/wiki/Advanced_Audio_Coding
-
