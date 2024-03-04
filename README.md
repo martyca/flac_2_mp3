@@ -1,9 +1,9 @@
 # flac_2_mp3
-docker image that take all flac files from the current folder and converts them to m4a using the aac code at a constant bitrate of 320.
+Converts flac files from the current folder to mp3 using the lame code at a constant bitrate of 320.
 ## Installation
 `docker pull martyca/flac_2_mp3:latest`
 ## Usage
-In the directory with the mp3 files run:
+In the directory with the flac files run:
 
 `docker run -t -v "$(pwd):/tmp/workdir" martyca/flac_2_mp3:latest`
 
